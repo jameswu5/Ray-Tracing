@@ -1,4 +1,4 @@
-#include "rtweekend.h"
+#include "utility.h"
 
 #include "camera.h"
 #include "hittable.h"
