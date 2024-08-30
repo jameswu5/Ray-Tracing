@@ -79,6 +79,10 @@ class camera {
         }
 
         color ray_color(const ray& r, int depth, const hittable& world) const {
+            if (depth <= 0) {
+                return color(0, 0, 0);
+            }
+
             hit_record rec;
 
             if (world.hit(r, interval(0.001, infinity), rec)) {
