@@ -36,3 +36,4 @@ build/
 .vscode
 
 commands.txt
+.DS_Store
